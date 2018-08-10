@@ -3,7 +3,7 @@
     <div class="container">
       <form @submit.prevent="submit">
       <div class="columns">
-        <div class="column">
+        <div class="column is-desktop">
           <div class="field">
               <div class="control">
                   <label class="label">Name </label>
@@ -41,6 +41,11 @@
         </div>
       </div>
       <input class="button is-link" type="submit"/>
+      <button class="button is-danger" @click="refresh">
+        <span class="icon is-small">
+          <i class="fa fa-refresh"></i>
+        </span>
+      </button>
       </form>
       <Response />
     </div>
@@ -75,6 +80,14 @@ export default {
       e.target.value = ''
       this.$store.commit('setProfile', this.profile)
       this.$store.dispatch('submitData')
+      this.profile = {
+        name: '',
+        email: '',
+        age: ''
+      }
+    },
+    refresh () {
+      location.reload()
     }
   },
   validations: {

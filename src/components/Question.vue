@@ -1,6 +1,5 @@
 <template>
     <div>
-    <h5>Fill this form</h5>
     <table class="table is-bordered is-striped is-narrow is-hoverable is-fullwidth">
         <thead>
             <tr>
@@ -11,7 +10,7 @@
         </thead>
         <tbody>
             <tr v-for="(item, i) in data.item" :key="item.id">
-                <td>{{item}}</td>
+                <td width="60%">{{item}}</td>
                 <td>
                     <div class="radio">
                         <input type="radio" :value="(i + 1).toString()" :name="mostTitle+(index + 1)" v-model="answer.most" @change="setAnswer(answer)" required>
