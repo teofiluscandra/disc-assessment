@@ -1,6 +1,20 @@
-# data-science-conference
+# DISC Assessment
 
-> Vue.js project for data science client side
+>DISC is a behavior assessment tool based on the DISC theory of psychologist William Moulton Marston, which centers on four different behavioral traits: dominance, inducement, submission, and compliance. This theory was then developed into a behavioral assessment tool by industrial psychologist Walter Vernon Clarke.
+
+>Commonly used for psychological testing during job registration
+
+For detailed explanation about DISC Assesment, checkout the [wikipedia](https://en.wikipedia.org/wiki/DISC_assessment)
+
+# Screenshot
+## Questions Form
+
+![alt text](https://github.com/teofiluscandra/disc-assessment/blob/master/screenshots/home.png?raw=true)
+
+## Result
+
+![alt text](https://github.com/teofiluscandra/disc-assessment/blob/master/screenshots/result.png?raw=true)
+
 
 ## Build Setup
 
@@ -18,4 +32,6 @@ npm run build
 npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# Contribute
+
+My email : teofiluschandra@gmail.com

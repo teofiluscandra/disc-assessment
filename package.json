@@ -1,7 +1,7 @@
 {
   "name": "data-science-conference",
   "version": "1.0.0",
-  "description": "Vue.js project for data science client side",
+  "description": "Vue.js project for DISC Assesment",
   "author": "Teofilus Candra <teofiluschandra@gmail.com>",
   "private": true,
   "scripts": {
